@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #EEE;
+}
+h2{
+    margin:25px
+}
+#app{
+    background-color: blueviolet;
+    height: 100vh;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+div > *{
+    margin: 5px;
+}
+.Add{
+    margin: 0 20px;
+    width:50px;
+    background: blueviolet;
+    border-radius: 6px ;
+    color: white ;
+    cursor: pointer;
+}
+.text{
+    cursor: text;
+}
+.Add , .text{
+    padding: 5px;
+    border: 1px solid blueviolet;
+    outline: none;
+    margin: 0 20px;
+}
+.del{
+    width: 60px;
+    display: inline;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+}
