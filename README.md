@@ -1,6 +1,6 @@
 # To-Do-List-App
 لإأo do list App ( Reactjs) 
-Technologies : 
+Technologies :
 html5
 CSS3
 Reactjs
